@@ -17,6 +17,7 @@ public class takeScreenshot{
             FileUtils.copyFile(file, destination);
         }catch (IOException e){
             e.printStackTrace();
+            System.out.println("ssddsxxxdsdds");
         }
 
     }
