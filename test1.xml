@@ -1,0 +1,21 @@
+<suite name="Suite1" thread-count="2" parallel="methods">
+    <test name="firefox test" >
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="test1" />
+        </classes>
+       <methods>
+           <exclude name="nextIssue_toTest"/>
+       </methods>
+    </test>
+    <test name ="chrome test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="test1"></class>
+        </classes>
+        <methods>
+            <exclude name="nextIssue_toTest"/>
+
+        </methods>
+    </test>
+</suite>
